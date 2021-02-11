@@ -1,0 +1,56 @@
+.btn {
+    display: grid;
+    grid-template-columns: 9fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.btn__fb {
+    opacity: 0.93;
+    outline: none;
+    border: none;
+    background-color: #3b5998;
+    border-radius: 4px;
+}
+
+.btn__tw {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    outline: none;
+    border: none;
+    background-color: #00acee;
+    border-radius: 4px;
+    opacity: 0.93;
+}
+
+.btn__G {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    outline: none;
+    border: none;
+    background-color: #DB4437;
+    color: white;
+    border-radius: 4px;
+    opacity: 0.93;
+}
+
+.btn__G>img {
+    margin-right: 8px;
+    margin-bottom: 2px;
+}
+
+.btn__G:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.btn__tw:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.btn__fb:hover {
+    opacity: 1;
+    cursor: pointer;
+}

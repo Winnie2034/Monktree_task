@@ -1,0 +1,18 @@
+.left {
+    width: 40%;
+    height: 100vh;
+    /* background-color:rgb(102,205,170); */
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: large;
+}
+
+.left__text1 {
+    padding: 0 28px;
+}
+
+h1 {
+    padding: 0 28px;
+}
